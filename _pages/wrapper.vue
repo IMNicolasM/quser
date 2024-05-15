@@ -127,7 +127,7 @@ export default {
       let authBanner = this.$getMediaSetting('iprofile::authBanner')
 
       let response = {
-        logo: this.$store.state.qsiteApp.logo,
+        logo: this.$getMediaSetting('isite::logo2').path,
         authTitle: this.$getSetting('iprofile::authTitle'),
         hideLogo: parseInt(this.$getSetting('iprofile::hideLogo')),
         authBanner: !authBanner.path || authBanner.path.includes('defaultLogo.jpg') ? false : authBanner
