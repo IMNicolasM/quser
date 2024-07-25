@@ -5,7 +5,7 @@ import { store } from "src/plugins/utils"
 
 const msalConfig = {
     auth: {
-        clientId: store.getSetting('iprofile::microsoftClientId'),
+        clientId: store.getSetting('isite::microsoftClientId'),
         authority: store.getSetting('iprofile::microsoftAuthUrl'),
         redirectUri: window.location.origin,
         postLogoutRedirectUri: window.location.origin
