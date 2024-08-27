@@ -52,7 +52,7 @@ export default {
               }).join(', ') : ''
             },
             {
-              name: 'last_loging', label: this.$tr('iprofile.cms.form.lastLogin'), field: 'lastLoginDate',
+              name: 'last_loging', label: this.$tr('iprofile.cms.form.lastLogin'), field: 'lastLogin',
               align: 'left', format: val => val ? this.$trd(val) : '-',
             },
             {
