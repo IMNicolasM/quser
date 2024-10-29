@@ -18,7 +18,7 @@ export default {
           title: this.$tr('iprofile.cms.newUser'),
         },
         read: {
-          requestParams: {include: 'roles,departments'},
+          requestParams: {include: 'roles,departments,qrs'},
           columns: [
             {name: 'id', label: this.$tr('isite.cms.form.id'), field: 'id'},
             {
